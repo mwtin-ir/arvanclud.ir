@@ -1,0 +1,40 @@
+.main-header {
+  background: url("../Images/bg.webp") center center no-repeat;
+  background-size: cover;
+}
+
+.home-globe {
+  background: linear-gradient(90deg, rgb(6, 78, 75), rgb(6, 32, 35) 64%);
+}
+.home-tab::after {
+  width: 0;
+  animation-name: "fillw";
+  animation: 6s all;
+}
+.home-banner {
+  background: linear-gradient(0deg, #f6f9fc 50%, #fff 0);
+}
+.home-banner__content {
+  background: linear-gradient(90deg, #105151, #256f6e 0, #001215 86%);
+}
+.home-banner-bottom {
+  background: linear-gradient(90deg, #064e4b, #062023 64%);
+}
+.c-banner {
+  background: radial-gradient(
+    311.82% 158.26% at -14.96% -37.8%,
+    rgb(255, 255, 255) 4.39%,
+    rgb(122, 219, 219) 24.39%,
+    rgb(80, 207, 207) 38.89%,
+    rgb(35, 195, 195) 61.89%,
+    rgb(0, 186, 186) 94.39%
+  );
+  padding-left: calc(20vw - 184px);
+}
+
+
+@media screen and (max-width: 450px) {
+  .main-header {
+    background: url("../Images/bg-mobile.webp") center center no-repeat;
+  }
+}
