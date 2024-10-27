@@ -50,8 +50,7 @@ export default function Enterprise() {
               </div>
               <div
                 className="flex gap-x-4 justify-start"
-                x-data=""
-                x-products-nav=""
+
               >
                 <Link
                   to="#request"
@@ -368,28 +367,28 @@ export default function Enterprise() {
           </div>
         </div>
       </section>
-      <section class="pb-24 pt-2 lg:pb-32 relative bg-[#EEF4FB]">
+      <section className="pb-24 pt-2 lg:pb-32 relative bg-[#EEF4FB]">
     
-    <div class="w-[100%] md:max-w-[640px] lg:max-w-[786px] xl:max-w-[1280px] mx-auto mr-1 lg:mr-auto">
-        <div class="flex flex-col">
-            <div class="text-gray-900 text-2xl lg:text-[40px] font-semibold mb-10 lg:mb-14 z-20">
+    <div className="w-[100%] md:max-w-[640px] lg:max-w-[786px] xl:max-w-[1280px] mx-auto mr-1 lg:mr-auto">
+        <div className="flex flex-col">
+            <div className="text-gray-900 text-2xl lg:text-[40px] font-semibold mb-10 lg:mb-14 z-20">
                 گواهی‌نامه‌های ابر آروان
             </div>
         </div>
-        <div class="grid grid-cols-2 lg:grid-cols-5 gap-2">
-                            <div class="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-2">
+                            <div className="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
                     <img src="https://www.arvancloud.ir/images/v6/contact/enterprise/certificates/afta.svg" alt="گواهی‌نامه‌های ابر آروان" draggable="false" loading="lazy" />
                 </div>
-                            <div class="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
+                            <div className="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
                     <img src="https://www.arvancloud.ir/images/v6/contact/enterprise/certificates/padafand.svg" alt="گواهی‌نامه‌های ابر آروان" draggable="false" loading="lazy" />
                 </div>
-                            <div class="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
+                            <div className="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
                     <img src="https://www.arvancloud.ir/images/v6/contact/enterprise/certificates/senf.svg" alt="گواهی‌نامه‌های ابر آروان" draggable="false" loading="lazy" />
                 </div>
-                            <div class="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
+                            <div className="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
                     <img src="https://www.arvancloud.ir/images/v6/contact/enterprise/certificates/danesh.svg" alt="گواهی‌نامه‌های ابر آروان" draggable="false" loading="lazy" />
                 </div>
-                            <div class="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
+                            <div className="flex items-center justify-center bg-white rounded-lg py-4 px-4 border border-gray-50 shadow-lg z-20">
                     <img src="https://www.arvancloud.ir/images/v6/contact/enterprise/certificates/manrs.svg" alt="گواهی‌نامه‌های ابر آروان" draggable="false" loading="lazy" />
                 </div>
                     </div>
@@ -441,8 +440,8 @@ export default function Enterprise() {
                 <path
                   d="M0 1L900 0.999921"
                   stroke="#b2c2d6"
-                  stroke-width="1.2"
-                  stroke-dasharray="4.5 4.5"
+                  strokeWidth="1.2"
+                  strokeDasharray="4.5 4.5"
                 ></path>
               </svg>
             </div>
